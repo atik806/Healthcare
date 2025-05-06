@@ -9,3 +9,4 @@ requests==2.26.0
 beautifulsoup4==4.9.3
 lxml==4.9.0 
 gunicorn
+Werkzeug==2.0.3
