@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Healthcare Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">{{ translations[language].title }}</h1>
+            <div class="language-selector">
+                <button onclick="changeLanguage('en')">English</button>
+                <button onclick="changeLanguage('bn')">বাংলা</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="symptom-checker">
+                <h2 id="symptoms-title">{{ translations[language].symptoms }}</h2>
+                <textarea id="symptoms-input" rows="4" placeholder="{{ translations[language].symptoms }}"></textarea>
+                <button id="analyze-btn" onclick="analyzeSymptoms()">{{ translations[language].analyze }}</button>
+            </section>
+
+            <section class="results" id="results" style="display: none;">
+                <h2>Results</h2>
+                <div id="diagnosis-result"></div>
+                <div id="confidence-meter"></div>
+                <div id="recommendations"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 

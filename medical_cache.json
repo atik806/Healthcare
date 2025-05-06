@@ -1,0 +1,62 @@
+{
+  "backpain\n_en": {
+    "data": {
+      "diagnosis": "Unable to determine specific condition",
+      "confidence": 0.5,
+      "recommendations": [
+        "Monitor your symptoms",
+        "Keep track of any changes",
+        "Consult a healthcare professional for proper diagnosis"
+      ],
+      "urgency": "normal",
+      "sources": []
+    },
+    "timestamp": "2025-05-06T06:28:14.521955"
+  },
+  "i have fever for 3 days\n_en": {
+    "data": {
+      "diagnosis": "Unable to determine specific condition",
+      "confidence": 0.5,
+      "recommendations": [
+        "Monitor your symptoms",
+        "Keep track of any changes",
+        "Consult a healthcare professional for proper diagnosis"
+      ],
+      "urgency": "normal",
+      "sources": []
+    },
+    "timestamp": "2025-05-06T06:28:50.071106"
+  },
+  "fever for 30 days\n_en": {
+    "data": {
+      "diagnosis": "Unable to determine specific condition",
+      "confidence": 0.5,
+      "recommendations": [
+        "Monitor your symptoms",
+        "Keep track of any changes",
+        "Consult a healthcare professional for proper diagnosis"
+      ],
+      "urgency": "normal",
+      "sources": [],
+      "medicine_recommendations": [
+        {
+          "condition": "fever",
+          "medicines": [
+            {
+              "name": "Paracetamol",
+              "dosage": "500-1000mg every 4-6 hours",
+              "max_daily": "4000mg"
+            },
+            {
+              "name": "Ibuprofen",
+              "dosage": "200-400mg every 4-6 hours",
+              "max_daily": "1200mg"
+            }
+          ],
+          "warning": "Consult doctor if fever persists for more than 3 days"
+        }
+      ]
+    },
+    "timestamp": "2025-05-06T07:28:14.250829"
+  }
+}
